@@ -1,6 +1,10 @@
 # Sistemas Digitales - Actividad Arduino
 
 ## Historia de Arduino
+El arduino nacio en el Instituto Interaction Design Institute Ivrea en el año 2005 por un equipo investigativo liberado por Massimo Banzi.
+
+El objetivo 
+
 
 ## Periféricos de Arduino y su uso
 
