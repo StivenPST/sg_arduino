@@ -18,7 +18,8 @@ Es una plataforma basada en un microcontorlador de arquitectuta Harvard, donde l
 ### Cerebro (MCU - Unidad de microcontrolador)
 El microcontrolador ATmega328P está integrado al famoso modelo Arduino Uno. Este chip de 8 bits, que pertenece a la familia AVR y fue fabricado por Atmel (actualmente forma parte de Microchip Technology), es famoso por su avanzada arquitectura RISC (Reduced Instruction Set Computer).
 
-#### Arquitectura de Harvard:La arquitectura Harvard, a diferencia de la arquitectura Von Neumann, utiliza buses y áreas de memoria separados físicamente para los datos e instrucciones del programa. Esto posibilita que el procesador, en un proceso denominado pipeline de 1 nivel, ejecute una instrucción y obtenga la siguiente al mismo tiempo. Esta concurrencia es lo que posibilita que la mayor parte de las instrucciones se ejecuten en un único ciclo de reloj, con lo cual se optimiza el rendimiento.
+#### Arquitectura de Harvard:
+La arquitectura Harvard, a diferencia de la arquitectura Von Neumann, utiliza buses y áreas de memoria separados físicamente para los datos e instrucciones del programa. Esto posibilita que el procesador, en un proceso denominado pipeline de 1 nivel, ejecute una instrucción y obtenga la siguiente al mismo tiempo. Esta concurrencia es lo que posibilita que la mayor parte de las instrucciones se ejecuten en un único ciclo de reloj, con lo cual se optimiza el rendimiento.
 
 ## Velocidad de reloj
 El Arduino Uno funciona con una frecuencia de reloj de 16 MHz. Gracias a su arquitectura Harvard y pipeline, es capaz de lograr un rendimiento que ronda los 16 MIPS (Millones de Instrucciones Por Segundo), lo cual le permite responder casi al instante en aplicaciones en tiempo real.
@@ -26,12 +27,15 @@ El Arduino Uno funciona con una frecuencia de reloj de 16 MHz. Gracias a su arqu
 ## Gestion de memoria
 El ATmega328P tiene tres clases de memoria, cada una con un propósito particular:
 
-### Memoria Flash (32 kilobytes): Es una memoria permanente en la que se guarda el programa creado por el usuario (denominado sketch). Aproximadamente 31.5 KB quedan libres para el código, ya que el bootloader emplea alrededor de 0.5 KB de esta capacidad. Apoya cerca de 10,000 ciclos de escritura.
+### Memoria Flash (32 KB): 
+Es una memoria permanente en la que se guarda el programa creado por el usuario (denominado sketch). Aproximadamente 31.5 KB quedan libres para el código, ya que el bootloader emplea alrededor de 0.5 KB de esta capacidad. Apoya cerca de 10,000 ciclos de escritura.
 
 
-### Memoria SRAM (de 2 KB): Es una memoria volátil de acceso extremadamente veloz. Su tarea es guardar las variables, los datos temporales y la pila (stack) mientras el programa se ejecuta. Cuando la placa queda desconectada, su contenido se pierde.
+### Memoria SRAM (de 2 KB): 
+Es una memoria volátil de acceso extremadamente veloz. Su tarea es guardar las variables, los datos temporales y la pila (stack) mientras el programa se ejecuta. Cuando la placa queda desconectada, su contenido se pierde.
 
-### Memoria EEPROM (1 KB): Es una memoria no volátil de lectura/escritura. Se utiliza para guardar configuraciones o datos que deben persistir incluso cuando la placa no recibe alimentación. Soporta un mayor número de ciclos de escritura (hasta 100,000) en comparación con la Flash
+### Memoria EEPROM (1 KB): 
+Es una memoria no volátil de lectura/escritura. Se utiliza para guardar configuraciones o datos que deben persistir incluso cuando la placa no recibe alimentación. Soporta un mayor número de ciclos de escritura (hasta 100,000) en comparación con la Flash
 
 ## Periféricos de Arduino y su uso
 <img width="3210" height="1165" alt="image" src="https://github.com/user-attachments/assets/dc7ad0e4-7eb9-4b92-aa86-a87514e42b77" />
