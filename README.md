@@ -68,10 +68,10 @@ El Arduino produce una respuesta con el fin de regular el entorno. Salida digita
 ---
 ## 📚 Referencias y Atribuciones
 
-1). Cnti. (2014, May 30). Arduino: el Hardware Libre. CNTI. https://cnti.gob.ve/arduino-el-hardware-libre/
-2). A000046 Arduino, A000046 Datasheet - page 8. (n.d.). https://elcodis.com/parts/1938089/A000046_p8.html#datasheet
-3). https://www.ecured.cu/index.php?title=Arduino&oldid=3461228
-4). Digital Circuits and Systems - Circuits i Sistemes Digitals (CSD) - EETAC - UPC. (n.d.). https://digsys.upc.edu/csd/P09/L09_1/L9_1.html#L2
+* **Cnti. (2014, May 30). Arduino:** el Hardware Libre. CNTI. https://cnti.gob.ve/arduino-el-hardware-libre/
+* **A000046 Arduino**, A000046 Datasheet - page 8. (n.d.). https://elcodis.com/parts/1938089/A000046_p8.html#datasheet
+* **https://www.ecured.cu/index.php?title=Arduino&oldid=3461228**
+* **Digital Circuits and Systems** - Circuits i Sistemes Digitals (CSD) - EETAC - UPC. (n.d.). https://digsys.upc.edu/csd/P09/L09_1/L9_1.html#L2
 
 * **Estándares de Hardware:** La identificación de conectores se basa en las especificaciones del [USB Implementers Forum (USB-IF)](https://www.usb.org/usb-20-documents) para el estándar **USB 2.0**, definiendo las interfaces físicas **Tipo-A** (Host) y **Tipo-B** (Device).
 * **Asistencia Técnica:** La estructura de la documentación, la organización técnica del repositorio y la clarificación de roles de conectividad contaron con el apoyo de **Gemini (IA de Google)** para asegurar estándares de documentación profesional.
