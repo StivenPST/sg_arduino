@@ -49,32 +49,26 @@ Descripción: Es un protocolo de alta velocidad con capacidad full-duplex que em
 <img width="3210" height="1165" alt="image" src="https://github.com/user-attachments/assets/dc7ad0e4-7eb9-4b92-aa86-a87514e42b77" />
 Puertos USB 2.0 Tipo A & Tipo B - Fuente Propia
 
-
-
-
 ## Ficha técnica, pines de conexión
-1. Entrada (Sensores)
-Detecta señales del entorno físico.
+### Los pines de entrada/salida (GPIO - General Purpose Input/Output) permiten la interacción con el entorno físico.
+Entrada (Sensores): El Arduino percibe las señales del ambiente.
+Entradas digitales: Interpretan estados binarios (HIGH o LOW), como la salida de un sensor de movimiento (PIR) o el pulso de un botón.
+Entradas que son de tipo analógico: Miden un rango de voltaje continuo (0 a 5V) y lo transforman en una cifra digital entre 0 y 1023 (con una resolución de diez bits). Se emplean con elementos como potenciómetros o sensores de temperatura (por ejemplo, el LM35). Están localizados en los pines A0 a A5.
 
-Digitales: Estados binarios (encendido/apagado), como un pulsador o un sensor PIR.
+### Procesamiento (lógica): 
+El código que se ha instalado en la MCU decodifica las señales de entrada. Aplica estructuras de control de flujo, características del lenguaje C/C++ (for, while, if, switch), para tomar decisiones basadas en la lógica programada.
 
-Analógicas: Valores continuos (0 a 1023), como un potenciómetro o un sensor de temperatura LM35.
-
-2. Procesamiento (Lógica)
-El código cargado interpreta las entradas. Utiliza estructuras condicionales (if, switch) y bucles (for, while) para decidir qué acción tomar según los parámetros programados.
-
-3. Salida (Actuadores)
-Genera una respuesta física.
-
-Control ON/OFF: Encender luces, activar relés.
-
-Modulación PWM: Controlar la intensidad de un LED o la posición de un servomotor simulando voltajes variables.
-
-
-
+### Salida (Actuadores): El Arduino produce una respuesta con el fin de regular el entorno.
+Salida digital (ON/OFF): Encienden o apagan componentes como LEDs, o encienden relés, al establecer un pin en estado HIGH (5V) o LOW (0V).
+Salidas PWM (Modulación por ancho de pulso): Simula una salida analógica alterando el ciclo de trabajo de una señal digital rápida. Se emplea para regular la intensidad de un LED o el lugar de un servomotor. Los pines 3, 5, 6, 9, 10 y 11 del Uno tienen la habilidad PWM.
 ---
 
 ## 📚 Referencias y Atribuciones
+
+1). Cnti. (2014, May 30). Arduino: el Hardware Libre. CNTI. https://cnti.gob.ve/arduino-el-hardware-libre/
+2). A000046 Arduino, A000046 Datasheet - page 8. (n.d.). https://elcodis.com/parts/1938089/A000046_p8.html#datasheet
+3). https://www.ecured.cu/index.php?title=Arduino&oldid=3461228
+4). Digital Circuits and Systems - Circuits i Sistemes Digitals (CSD) - EETAC - UPC. (n.d.). https://digsys.upc.edu/csd/P09/L09_1/L9_1.html#L2
 
 * **Estándares de Hardware:** La identificación de conectores se basa en las especificaciones del [USB Implementers Forum (USB-IF)](https://www.usb.org/usb-20-documents) para el estándar **USB 2.0**, definiendo las interfaces físicas **Tipo-A** (Host) y **Tipo-B** (Device).
 * **Asistencia Técnica:** La estructura de la documentación, la organización técnica del repositorio y la clarificación de roles de conectividad contaron con el apoyo de **Gemini (IA de Google)** para asegurar estándares de documentación profesional.
