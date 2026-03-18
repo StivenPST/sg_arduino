@@ -17,8 +17,15 @@ Es una plataforma basada en un microcontorlador de arquitectuta Harvard, donde l
 Por lo general bien el ATMEGA328P en el modelo (1) uno.
 
 ## Velocidad de reloj
-Por lo general tiene uan velocidad de 16 MHZ, 
-##
+Por lo general tiene uan velocidad de 16 MHZ, cuenta con una capacidad de ejecutar 16 millones de instrucciones por segundo.
+
+## Memoria
+### Flash
+Cuenta con una memoria de 32 KB, donde se guarda el codigo.
+### SRAM
+Cuenta con una memoria de 2KB, donde se gaurdan las variables cuando el programa corre.
+### EEPROM
+Cuenta con una memoria de 1 KB, es la memoria no volatil.
 
 ## Periféricos de Arduino y su uso
 
