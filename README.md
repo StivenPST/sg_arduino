@@ -7,6 +7,7 @@
 
 ## Historia de Arduino
 <img width="738" height="576" alt="image" src="https://github.com/user-attachments/assets/5f5c4bcb-2e77-45c1-81d5-8f4a28849501" />
+
 Arduino UNO - Fuente Propia
 
 En el año 2005, en Italia, surgió el proyecto Arduino desde el Interaction Design Institute Ivrea (IDII) como solución a la demanda de los alumnos de tener un instrumento asequible y económico para desarrollar proyectos de interacción física. El equipo, que fue dirigido en un principio por Massimo Banzi, tenía como objetivo encontrar una opción más económica al microcontrolador BASIC Stamp, que costaba alrededor de 100 dólares y suponía un obstáculo para la mayoría de los estudiantes.
